@@ -93,7 +93,7 @@ a:hover {
 
 .checkbox-row {
   display: flex;
-  align-items: center;
+  align-items:right;
   justify-content: space-between;
   font-size: 14px;
   margin-bottom: 12px;
