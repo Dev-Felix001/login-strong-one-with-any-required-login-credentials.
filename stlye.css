@@ -1,0 +1,109 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background: rgba(0, 0, 0, 0.5);
+  background: url("./i-m-zion-rVcxGBT80j8-unsplash.jpg") no-repeat center center/cover;
+}
+
+
+form {
+  background: zrgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 60px 50px;
+  width: 520px; 
+  color: rgb(249, 248, 248);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+  color: #fff;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: solid 3px rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+input::placeholder {
+  color: #ddd;
+}
+
+input:focus {
+  box-shadow: 0 0 8px #fff;
+  border-color: #fff;
+}
+
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #00020d;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color:blue;
+  transform: scale(1.05);
+}
+
+
+a {
+  color: #dbeafe;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.checkbox-row label {
+  color: #e0e7ff;
+}
+
+input[type="checkbox"] {
+  accent-color: #6366f1;
+}
+

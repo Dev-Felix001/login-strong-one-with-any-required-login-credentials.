@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+  <form action="submit">
+    <h1>Login to your account</h1>
+
+    <label for="name">Full Name</label><br>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+
+    <label for="email">Email / Phone Number</label><br>
+    <input type="text" name="email" id="email" placeholder="Enter your Email" required><br>
+
+    <label for="password">Enter Password</label><br>
+    <input type="password" name="password" id="password" placeholder="Enter your password" aria-describedby="togglepasswordlable" required><br>
+
+    <a href="#">Forgot password?</a><br><br>
+
+<div class="checkbox-row">
+      <input type="checkbox" id="agree" required>
+      <label for="agree">Agree with our rules and policies</label>
+    </div>
+
+    <input type="submit" id="submit" value="Login"><br><br>
+
+    <div class="checkbox-row">
+      <input type="checkbox" id="remember" checked>
+      <label for="remember">Remember me</label>
+      <a href="#">Need help?</a>
+    </div>
+
+    <br>
+    <a href="#">Create a new account</a>
+  </form>
+</body>
+</html>
