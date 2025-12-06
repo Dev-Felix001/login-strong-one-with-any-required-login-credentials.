@@ -40,7 +40,7 @@ input[type="text"],
 input[type="date"],
 input[type="password"] {
   width: 100%;
-  padding: 14px;
+  padding: 18px;
   margin-bottom: 20px;
   border: solid 3px rgba(255, 255, 255, 0.2);
   border-radius: 10px;
