@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Prolific", sans-serif;
+  font-size:medium;
+
 }
 
 body {
@@ -52,7 +54,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 20px;
+  margin: 10px;
 }
 
 form {
@@ -60,13 +63,13 @@ form {
 }
 
 form h1 {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 26px;
 }
 
 label {
   font-weight: bold;
-  margin: 10px 0 5px;
+  margin: 20px 0 5px;
   display: block;
 }
 
@@ -74,9 +77,10 @@ input[type="text"],
 input[type="password"],
 input[type="date"] {
   width: 100%;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  border-radius: 10px;
+  border: 3px solid #0b0101;
   margin-bottom: 15px;
 }
 
