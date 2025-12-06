@@ -6,40 +6,60 @@
   <title>Login Page</title>
   <link rel="stylesheet" href="stlye.css">
 </head>
+
 <body>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <form action="submit">
-    <h1>Login to your account</h1>
 
-    <label for="name">Full Name</label><br>
-    <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+<div class="container">
 
-    <label for="dob">Date of Birth</label><br>
-    <input type="date" id="dob" name="dob" required><br>
+  <!-- LEFT SIDE -->
+  <div class="left">
+      <img src="/i-m-zion-rVcxGBT80j8-unsplash.jpg" alt="Background">
+      <div class="text-box">
+          <p class="quote">
+              “I chose to work for CrowdGen because I enjoy remote work and I get to learn more about AI. I can work whenever, 
+              and I'm always watching for new projects.”
+          </p>
+          <p class="name">~ Felix, USA</p>
+      </div>
+  </div>
 
-    <label for="email">Email / Phone Number</label><br>
-    <input type="text" name="email" id="email" placeholder="Enter your Email" required><br>
+  <!-- RIGHT SIDE (FORM) -->
+  <div class="right">
+      <form action="submit">
+        <h1>Login to your account</h1>
 
-    <label for="password">Enter Password</label><br>
-    <input type="password" name="password" id="password" placeholder="Enter your password" aria-describedby="togglepasswordlable" required><br>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
 
-    <a href="#">Forgot password?</a><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" required>
 
-<div class="checkbox-row">
-      <input type="checkbox" id="agree" required>
-      <label for="agree">Agree with our rules and policies</label>
-    </div>
+        <label for="email">Email / Phone Number</label>
+        <input type="text" id="email" placeholder="Enter your Email" required>
 
-    <input type="submit" id="submit" value="Login"><br><br>
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
 
-    <div class="checkbox-row">
-      <input type="checkbox" id="remember" checked>
-      <label for="remember">Remember me</label>
-      <a href="#">Need help?</a>
-    </div>
+        <a href="#" class="forgot">Forgot password?</a>
 
-    <br>
-    <a href="#">Create a new account</a>
-  </form>
+        <div class="checkbox-row">
+          <input type="checkbox" id="agree" required>
+          <label for="agree">Agree with our rules and policies</label>
+        </div>
+
+        <input type="submit" id="submit" value="Login">
+
+        <div class="checkbox-row space">
+          <input type="checkbox" id="remember" checked>
+          <label for="remember">Remember me</label>
+          <a href="#" class="help">Need help?</a>
+        </div>
+
+        <a href="#" class="create">Create a new account</a>
+      </form>
+  </div>
+
+</div>
+
 </body>
 </html>
